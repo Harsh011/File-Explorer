@@ -1,0 +1,21 @@
+.folder {
+    display: flex;
+
+    justify-content: space-between;
+    background-color: rgb(211, 209, 209);
+    width: 300px;
+    margin: 5px;
+    padding: 2px 0 2px 0;
+    cursor: pointer;
+}
+
+.file {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 300px;
+    margin: 5px;
+    padding: 2px 0 2px 0;
+    cursor: pointer;
+}
